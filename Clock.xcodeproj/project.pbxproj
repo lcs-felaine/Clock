@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		66DDBB282CDE52DD0001913E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DDBB222CDE52DD0001913E /* Preview Assets.xcassets */; };
+		66DDBB292CDE52DD0001913E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DDBB242CDE52DD0001913E /* Assets.xcassets */; };
+		66DDBB2A2CDE52DD0001913E /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DDBB252CDE52DD0001913E /* ClockApp.swift */; };
+		66DDBB2B2CDE52DD0001913E /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DDBB262CDE52DD0001913E /* LandingView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		66DDBAF72CDE4F030001913E /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DDBB222CDE52DD0001913E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66DDBB242CDE52DD0001913E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66DDBB252CDE52DD0001913E /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
+		66DDBB262CDE52DD0001913E /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		66DDBAF92CDE4F030001913E /* Clock */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Clock;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		66DDBAF42CDE4F030001913E /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		66DDBAEE2CDE4F030001913E = {
 			isa = PBXGroup;
 			children = (
-				66DDBAF92CDE4F030001913E /* Clock */,
+				66DDBB272CDE52DD0001913E /* Clock */,
 				66DDBAF82CDE4F030001913E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				66DDBAF72CDE4F030001913E /* Clock.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		66DDBB232CDE52DD0001913E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66DDBB222CDE52DD0001913E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66DDBB272CDE52DD0001913E /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				66DDBB252CDE52DD0001913E /* ClockApp.swift */,
+				66DDBB2C2CDE52F90001913E /* Views */,
+				66DDBB232CDE52DD0001913E /* Preview Content */,
+				66DDBB242CDE52DD0001913E /* Assets.xcassets */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		66DDBB2C2CDE52F90001913E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66DDBB262CDE52DD0001913E /* LandingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				66DDBAF92CDE4F030001913E /* Clock */,
 			);
 			name = Clock;
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DDBB282CDE52DD0001913E /* Preview Assets.xcassets in Resources */,
+				66DDBB292CDE52DD0001913E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DDBB2A2CDE52DD0001913E /* ClockApp.swift in Sources */,
+				66DDBB2B2CDE52DD0001913E /* LandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
